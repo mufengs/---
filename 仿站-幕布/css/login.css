@@ -1,0 +1,109 @@
+* {
+margin:0;
+padding:0;}
+li {
+list-style:none;}
+.login-style {
+width:366px;
+margin:52px auto;}
+.password-login {
+font:14px 思源黑体 CN;
+color:#777777;}	
+
+.password-login .logo-top {
+margin-left:146px;}
+
+.password-login .acount {
+width:336px;
+height:18px;
+border:1px #e2e2e2 solid;
+padding:12px 12px;
+margin-top:60px;
+margin-bottom:20px;}
+
+.password-login .verfic-code {
+width:172px;
+height:16px;
+margin-right:18px;
+border:1px #e2e2e2 solid;
+padding:12px 12px;}
+
+.password-login .acount:focus , .password-login .verfic-code:fcous {
+outline:none;
+border-color:#777;}
+	
+.password-login .make-code {
+cursor:pointer;
+width:142px;
+height:42px;
+background-color:#4a4a4a;
+border:none;
+outline:none;
+color:white;
+text-align:center;}
+
+.password-login .enter {
+cursor:pointer;
+width:360px;
+height:42px;
+margin-top:20px;
+margin-bottom:22px;
+background-color:#4a4a4a;
+border:none;
+outline:none;
+font:16px 思源黑体 CN;
+color:white;}
+
+.other-login {
+margin-top:45px;
+text-align:center;
+font:14px 思源黑体 CN;
+color:#999999;}
+
+.common-login {
+margin-top:18px;
+margin-bottom:12px;}
+
+.other-login .qq {
+margin-right:32px;}
+
+.other-login .award {
+margin-left:88px;
+color:#ff7700;
+text-decoration:none;}
+
+.prompt-text {
+  position:absolute;
+  top:145px;
+  left:840px;
+  visibility:hidden;}
+
+.prompt-text li {
+  color:red;}
+  
+.prompt-text #phone {
+  position:relative;
+  top:12px;}
+
+.prompt-text #yzcode {
+  position:relative;
+  top:59px;}
+
+.acount-error {
+  width:336px;
+  height:18px;
+  border:1px #e2e2e2 solid;
+  padding:12px 12px;
+  margin-top:60px;
+  margin-bottom:20px;
+  border-color:red;}
+
+.verfic-error {
+  width:172px;
+  height:16px;
+  margin-right:18px;
+  border:1px #e2e2e2 solid;
+  padding:12px 12px;
+  border-color:red;}
+
+    

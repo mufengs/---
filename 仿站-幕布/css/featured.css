@@ -1,0 +1,207 @@
+
+
+*{
+margin:0;
+padding:0;}
+html,body {
+width:100%;
+height:100%;}
+body {
+line-height:1;
+margin:0 auto;
+background:url("../image/featured/navbac.png")   no-repeat;
+background-size:100%;}
+.clearfix:after {
+content:"";
+display:table;
+ clear:both; }
+ a {
+ text-decoration:none; }
+ li {
+ list-style:none; }
+ 
+ /* navigation bar */
+.header {
+width:100%;
+padding-top:14px;
+margin-bottom:136px;}
+  
+.nav {
+float:right; }
+.header ul li {
+float:left;}
+.header .nav .menu{
+display:block;
+position:relative;
+top:3px;
+font:16px  思源黑体 CN;
+color:#555555;}
+.header .nav .average {
+margin-right:35px; }
+.header .acount {
+font: 16px 思源黑体 CN;
+width:109px;
+height:32px;
+margin-right:131px;
+line-height:32px;
+background:url(../image/homeimg/acount.png) no-repeat;
+border:none;
+outline:none;
+position:relative;
+left:22px; }
+.header .pn img{
+padding-left:133px;
+height:40px;}
+ 
+ /*featured-themet*/
+ .featured-theme {
+ text-align:center;}
+ .featured-theme h3{
+ font:32px 思源黑体 CN;
+ color:#333333;
+ margin-top:140px;
+ margin-bottom:30px;}
+  .featured-theme p{
+ font:21px 思源黑体 CN;
+ color:#333333;}
+ .featured-theme .sumbit-thing{
+width:115px;
+height:42px;
+border:none;
+outline:none;
+background-color:#4a4a4a;
+font:16px 思源黑体 CN;
+color:#ffffff;
+margin:32px auto}
+.featured-theme a{
+font:14px 思源黑体 CN;
+color:#ffffff;}
+
+/*banner-total*/
+.banner-total , .templated {
+width:926px;
+margin:0 auto;}
+.banner-total .banner-left , .templated-left {
+width:642px;
+float:left;
+margin-right:20px;}
+.banner-total .banner-left img {
+width:100%}
+.banner-total .banner-right img , .templated .templated-right {
+width:260px;}
+
+/*templated*/
+.templated{
+margin-top:50px;
+margin-bottom:50px;}
+.templated .templated-right{
+float:left;}
+.banner-total .banner-right .right1{
+margin-bottom:12px;}
+.templated-title .content{
+width:160px;
+height:20px;
+padding:0 20px;
+margin-left:400px;
+border-radius:20px;
+border:2px #f0f0f0 solid;
+outline:none;
+font:14px 思源黑体 CN;
+color:#777777;}
+.templated-left .templated-title{
+padding-bottom:13px;
+border-bottom:1px #e3e3e3 solid;}
+.right-title{
+padding-bottom:21px;
+border-bottom:1px #e3e3e3 solid;}
+.templated-left .tipList li {
+margin-top:20px;
+padding-bottom:25px;
+border-bottom:1px #e3e3e3 solid;}
+ .templated-left .tipList p {
+font:14px 思源黑体 CN;
+color:#7f7f7f;}
+ .templated-left .tipList h3 {
+font:Bold 18px 思源黑体 CN;}
+.tipList-content {
+margin-top:10px;}
+.templated-right .btnList button {
+margin-right:10px;
+border-radius:8px;
+background-color:white;
+border:1px #bababa solid;
+outline:none;
+padding:5px 12px;}
+.templated-right .btnList ul{
+margin-top:20px;
+margin-bottom:20px;}
+.templated-right .btnList li {
+font:14px 思源黑体 CN;
+margin-bottom:10px;}
+.templated-right .btnList .btn0 {
+background-color:#878787;
+outline:none;
+color:white;}	
+.templated-right .btnList li  button:hover{
+background-color:#878787;}
+.templated-right .right-pic li {
+margin-bottom:15px;}
+.templated-right .right-pic .pic{
+width:100%;}
+.templated-right .right-pic .pic1{
+width:64px;
+margin-right:15px;
+float:left;}
+ .templated-right .right-pic .pic-title {
+ float:left;
+ margin-top:15px;
+ line-height:18px;}
+ .templated-right .right-pic .pic-end {
+padding:12px 22px;
+border:1px #e3e3e3 solid;
+font:14px 思源黑体 CN}
+
+/*footer*/
+.footer {
+background-color:#333333; }
+.footer .infor {
+width:817px;
+margin:0 auto;
+padding-top:51px;
+margin-bottom:51px; }
+.footer .cp , .footer .fw , .footer .gs , .footer .co {
+float:left; }
+.footer .cp {
+width:50px; }
+.footer .infor a {
+font:16px 思源黑体 CN;
+color:#9e9d9d; }
+.footer .fw {
+width:70px;
+margin-left:190px;
+margin-right:190px; }
+.footer .gs {
+width:80px;}
+.footer .co {
+width:66px;
+margin-left:170px; }
+.footer .infor h2 {
+font:16px 思源黑体 CN;
+color:#c6c7c9;
+margin-bottom:28px; }
+.footer .infor .p2 {
+margin-top:17px;
+margin-bottom:17px; }
+.footer .infor .p4 {
+margin-top:16px; }
+.footer .infor .p5 {
+margin-top:18px; }
+.infor .co .wx {
+margin-left:10px; }
+.footer .end {
+text-align:center;
+font:14px 思源黑体 CN;
+color:#9e9d9d; 
+margin-bottom:15px;}
+.footer .end a {
+color:#9e9d9d; }

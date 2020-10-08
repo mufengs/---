@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>登录幕布</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  type="text/css"  href="../css/login.css"/>
+	<script type="text/javascript" src="../js/login-verify.js"></script>
+  </head>
+  <body>
+    <div class="login-style">
+	 <div class="password-login">
+		<a href="幕布.html"><img  class="logo-top" src="../image/login/logo.png" alt="logo-top"/></a>
+		<form action="#">
+	      <ul>
+		    <li><input class="acount" id="acount" type="text" name="acount" placeholder="手机号" onblur="checkphone()"/></li>
+		    <li><input class="verfic-code" id="verfic-code" type="text" name="verfica-code" placeholder="验证码" onblur="confimcode()"/><button class="make-code" id="make-code">获取验证码</button></li>
+		    <li><button type="submit" class="enter" id="enter" onclick="return checklogin()">登录/注册</button></li>
+		  </ul>
+		</form>
+		<p>密码登录</p>
+	  </div>
+	  <div class="other-login">
+	    <p>使用第三方账号快速登录</p>
+		<div class="common-login">
+		  <a href="#qq"><img class="qq" src="../image/login/qq.png" alt="qq"/></a>
+		  <a href="#wechat"><img src="../image/login/wechat.png" alt="wechat"/></a>
+		</div>
+		<p><a class="award" href="#award user">新用户奖励</a></p>
+	  </div>
+	</div>
+	<div class="prompt-text">
+		<ul>
+		  <li id="phone">phone</li>
+		  <li id="yzcode">yzcode</li>
+        </ul>
+	  </div>
+  </body>  
+</html>

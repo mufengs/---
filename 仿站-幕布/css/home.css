@@ -1,0 +1,186 @@
+body {
+	line-height:1;
+	margin:0 auto; }
+.clearfix:after {
+	content:"";
+   display:table;
+   clear:both; }
+ a {
+	 text-decoration:none; }
+ li {
+	 list-style:none; }
+ 
+ /* navigation bar */
+.header {
+   height:54px;
+   margin-bottom:136px; 
+   padding-top:14px;
+   background-color:white;
+   position: -webkit-sticky;
+   position: sticky;
+   top:0}
+  
+.nav {
+	float:right; }
+.header ul li {
+	float:left;}
+.header .nav .menu{
+	display:block;
+	position:relative;
+	top:3px;
+	font:16px  思源黑体 CN;
+    color:#555555;}
+.header .nav .average {
+    margin-right:35px; }
+.header .acount {
+	cursor:pointer;
+	width:109px;
+	height:32px;
+	font: 16px 思源黑体 CN;
+	margin-right:131px;
+	line-height:32px;
+	border:none;
+	outline:none;
+	background:url(../image/homeimg/acount.png) no-repeat;
+	position:relative;
+	left:22px; }
+.header .pn img{
+  padding-left:133px;
+  height:40px;}
+
+/*product positioning*/
+hr {
+	border:1px solid #f2f2f2; }
+.positioning {
+	padding-bottom:159px;
+	width:972px;
+	margin:0 auto; }
+.positioning .banner {
+	float:right; }
+.positioning .banner img{
+  height:250px;}
+.positioning h2 {
+	font:36px 思源黑体 CN;
+	color:#333333; }
+.positioning p {
+	padding-top:22px;
+	font:18px 思源黑体 CN;
+	color:#333333; }
+.banner-content {
+	padding-top:55px; }
+
+/*product core*/
+.core {
+	width:861px;
+	margin:0 auto; }
+.core h2 {
+	text-align:center;
+	padding-top:56px;
+	margin-bottom:50px;
+	font:30px 思源黑体 CN;
+	color:#101010; }
+.core p {
+	text-align:center;
+	font:18px 思源黑体 CN;
+	color:#727272; }
+.core .p2 {
+	margin-top:15px;
+	margin-bottom:35px; }
+.core #convert{
+	cursor:pointer;
+	width:131px;
+	height:43px;
+	color:white;
+	line-height:43px;
+	background:url(../image/homeimg/buttonback.png) no-repeat;
+	border:none;
+	margin:54px 364px 62px; }
+
+/*product content*/
+.content {
+	width:774px;
+	margin:0 auto; }
+.gx {
+	padding-top:163px;
+	margin-bottom:185px; }
+.gx .picture1 , .yd .picture3 {
+	float:left;
+	margin-right:128px; }
+.gx h2 {
+	margin-top:24px; }
+.gx h2 , .qx h2 , .yd h2 , .qs h2 {
+	margin-bottom:25px;
+	font:30px 思源黑体 CN;
+	color:#3b3b3b; }
+.gx p , .qx p , .yd p , .qs p {
+	font:18px 思源黑体 CN;
+	color:#727272; }
+.gx span , .qx span , .yd span , .qs span {
+	color:#84c7fa; }
+.qx .picture2 , .qs .picture4 {
+	float:right;
+	margin-left:128px; }
+.qx h2 {
+	padding-top:55px; }
+.yd {
+	margin-top:202px; }
+.yd h2 {
+	padding-top:43px; }
+.qs {
+	margin-top:212px; }
+.qs h2 {
+	padding-top:78px; }
+
+/*product ecology*/
+.ecology {
+	width:882px;
+	margin:0 auto;
+	padding-top:260px;
+	padding-bottom:40px; }
+
+/*information*/
+.footer {
+	background-color:#333333; }
+.footer .infor {
+	width:817px;
+	margin:0 auto;
+	padding-top:51px;
+	margin-bottom:51px; }
+.footer .cp , .footer .fw , .footer .gs , .footer .co {
+	float:left; }
+.footer .cp {
+	width:50px; }
+.footer .infor a {
+    font:16px 思源黑体 CN;
+	color:#9e9d9d; }
+.footer .fw {
+	width:70px;
+	margin-left:190px;
+	margin-right:190px; }
+.footer .gs {
+	width:80px;}
+.footer .co {
+	width:66px;
+	margin-left:170px; }
+.footer .infor h2 {
+	font:16px 思源黑体 CN;
+	color:#c6c7c9;
+	margin-bottom:28px; }
+.footer .infor .p2 {
+	margin-top:17px;
+	margin-bottom:17px; }
+.footer .infor .p4 {
+	margin-top:16px; }
+.footer .infor .p5 {
+	margin-top:18px; }
+.infor .co .wx {
+	margin-left:10px; }
+.footer .end {
+	text-align:center;
+	font:14px 思源黑体 CN;
+	color:#9e9d9d; 
+	margin-bottom:15px;}
+.footer .end a {
+	color:#9e9d9d; }
+	
+
